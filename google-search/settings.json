@@ -1,0 +1,14 @@
+{
+    "fields": [
+        {
+            "name": "keyword",
+            "type": "string",
+            "required": true
+        },
+        {
+            "name": "targetHeading",
+            "type": "string",
+            "required": true
+        }
+    ]
+}

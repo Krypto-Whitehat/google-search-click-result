@@ -1,0 +1,25 @@
+{
+  "id": "e8c9e8e2-fd2a-4de6-9bce-14dfc9d2a7e2",
+  "title": "Google Search Bot",
+  "description": "Performs automated Google searches with rotating user agents and proxies.",
+  "author": "GPTPower",
+  "repository": "https://github.com/gptpower/google-search-bot",
+  "version": "1.0.0",
+  "modules": [
+    {
+      "id": "a0eebc99-9c0b-4ef8-bb6d-6bb9bd380a11",
+      "name": "google-search",
+      "title": "Google Search",
+      "description": "Performs automated Google searches.",
+      "icon": "fa-search",
+      "version": "1.0.0",
+      "versionRequired": "0.2.900",
+      "status": "online",
+      "url": "https://google.com",
+      "width": 1280,
+      "height": 720,
+      "userAgent": "",
+      "settingsScript": "google-search/settings.js"
+    }
+  ]
+}
